@@ -1,0 +1,170 @@
+
+body{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+h1,h2{
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    font-size: 2rem;    
+}
+
+a{
+    font-size: larger;
+    color: #E8630A;
+}
+
+a:hover{
+    color: #F14A16;
+}
+
+
+td{
+    text-align: center;
+    background-color: #E8630A;
+}
+
+
+
+/******************HOME*************************/
+
+.LogoHeader{
+    width: 6%;
+}
+
+.logoUno{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 9rem;
+    margin-top: 8%;
+}
+
+.LogoFooter{
+    width: 3rem !important;
+    height: auto !important; 
+}
+
+.footer-links{
+    text-decoration: none !important;
+    color: white !important;
+    margin: 0 1rem 0 1rem !important;
+    font-size: 1rem;
+}
+
+
+.divisor{
+    height: 5px;
+    background-color: #E8630A;
+}
+
+.homelogo{
+    width: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-send{
+    background-color: #006654 !important;
+    width: 50% !important;
+}
+
+/*Product css*/
+
+.slider{
+    height: 110px;
+}
+
+.slider-img{
+    margin: 2rem 0 2rem 0;
+}
+
+.product-info{
+    background-color: #e0d1ba;
+    border-radius: 10%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: black !important;
+}
+
+/*--------CONTACT CSS-----------*/
+
+.img-contact{
+    border-radius: 0.5rem !important;
+    padding: 2rem !important;
+    background-color: #e0d1ba !important;
+}
+
+.img-contact:hover{
+    background-color: #ddc298 !important;
+}
+
+.form-contact{
+    padding: 2% 0 2% 0;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.info-contact{
+    display: flex;
+    flex-direction: column;
+    margin: 8% auto 10% auto;
+}
+
+.form-control{
+    border: 1px solid #006654 !important;
+}
+
+/*REGISTER CSS*/
+
+.register-form{
+    width: 80% !important;
+    margin-bottom: 0.75rem;
+}
+
+.register-questions{
+    border: 1px solid #006654;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.form-label{
+    color: #006654 !important;
+}
+
+.form-group{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.btn-register{
+    background-color: #006654 !important;
+}
+/*--------ABOUT CSS-----------*/
+
+.body-about{
+    text-align: center;
+}
+
+.aboutP{
+    margin: 0 10% 2% 10%;
+}
+
+.member-img{
+    width: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.member-name{
+    font-size: 2rem !important;
+}
